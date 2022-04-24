@@ -1,0 +1,38 @@
+<header>
+    <div class ="wrapper">
+
+    <div class="logo">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/2560px-International_Pok%C3%A9mon_logo.svg.png" alt="" width="300" class="d-inline-block align-text-top"> 
+    </div>
+    <div class="l">
+        <img src="https://img.wattpad.com/ffbe2238f40f15f199ba17e9c7f5341b3306947c/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f6b35685a6837363543736c3555673d3d2d313231353230343737382e313665363239653036396237663064623631313832373936313838332e706e67?s=fit&w=720&h=720"alt="" width="200" class="d-inline-block align-text-top">
+        
+    </div>
+    <div><p><i>{{datosuser}}</i></p></div>
+    <nav (click)="logout()">
+      <a  href="">LOGOUT</a>
+          
+    </nav>
+</div>
+</header>
+
+<div class="container">
+  <div class="row">
+      <div class="col-md-6">
+          <div class="card">
+             
+              <form [formGroup]="selecForm"(ngSubmit)="onbusqueda()">
+                <div class="input-group mb-3">
+                  <input formControlName="search"type="text" [(ngModel)]="busquedaobj" class="form-control" placeholder= buscar aria-label="Recipient's username" aria-describedby="button-addon2">
+                  <button class="btn btn-outline-secondary" type="submit" id="button-addon2">Buscar</button>
+                </div>
+                <form [formGroup]="opForm">
+                  <div> <select id="datopc" formControlName="datopc" [(ngModel)]="datoalm" >
+                  <option  *ngFor="let p of opciones" [ngValue]="p">{{ p }}</option>
+                </select></div>
+              </form>
+                </form>
+          </div>
+      </div>
+  </div>
+</div>

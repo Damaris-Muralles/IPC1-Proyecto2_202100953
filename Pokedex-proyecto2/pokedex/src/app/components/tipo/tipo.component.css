@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300,700');
+body {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    text-align: center;
+    
+    margin: 0px;
+  }
+  .container{
+      margin-top: 190px;
+      background-image:url(https://i.pinimg.com/originals/ed/b1/9d/edb19dc184c0ec5511f4411cd285f710.gif);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }     
+  .container-1{
+    margin-top: 190px;
+    background-image: url(https://c.tenor.com/GzAkX3_ZBtgAAAAC/anime-anime-gif.gif);
+    background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+}
+.container-2{
+    margin-top: 190px;
+    background-image:url(https://img.wattpad.com/e60d2ab876759879ec6c8a307ac061105abf7dd3/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f704a67505a37436431486b4341773d3d2d3234353039333536352e313434353663313537643438323332332e676966);
+    background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+}
+  
+  img {
+    max-height: 150px;
+    margin: auto;
+    display: inline-block;
+  }
+  h1, h2, h3, h4, h5 {
+    margin: 0;
+    font-weight: 400;
+  }
+  
+  
+  .card {
+    display: inline-block;
+    width: 300px;
+    padding: 1em;
+    border-radius: 15px;  
+    margin: 10px;
+    background: #ddd;
+    text-align: left;
+         
+    box-shadow: 0px 10px 30px -10px #111111;
+    background: linear-gradient(180deg, #ffc77b 0, #ffb872 16.67%, #ffa364 33.33%, #f28953 50%, #e46e44 66.67%, #db573e 83.33%, #d5453e 100%);
+  }
+  .card-1 {
+    display: inline-block;
+    width: 300px;
+    padding: 1em;
+    border-radius: 15px;  
+    margin: 10px;
+    background: #ddd;
+    text-align: left;
+         
+    box-shadow: 0px 10px 30px -10px #111111;
+    background:  radial-gradient(circle at 50% -20.71%, #feffff 0, #efffff 12.5%, #ddfffd 25%, #cafbf7 37.5%, #b5f2f2 50%, #9fe9ee 62.5%, #8ae1ec 75%, #76d9eb 87.5%, #62d1eb 100%);
+  }
+  .card-2 {
+    display: inline-block;
+    width: 300px;
+    padding: 1em;
+    border-radius: 15px;  
+    margin: 10px;
+    background: #ddd;
+    text-align: left;
+         
+    box-shadow: 0px 10px 30px -10px #111111;
+    background: radial-gradient(circle at 50% -20.71%, #ffffcf 0, #ffffca 8.33%, #f8ffc5 16.67%, #eafec0 25%, #dafabc 33.33%, #c9f6b8 41.67%, #b5f2b5 50%, #a0edb4 58.33%, #8ae9b5 66.67%, #71e5b8 75%, #56e2bd 83.33%, #2fdec3 91.67%, #00dbcb 100%);
+  }
+
+    .card__caption{
+      background-color: rgba(#ffffff, 0.65);
+      padding: 1em;
+      position: relative;
+      border-radius: 0 0 3px 3px;
+    }
+    .card__image-container {
+      background-color: rgba(#000000, 0.7);
+      text-align: center;
+      padding: 1em 1em 0;
+      border-radius: 3px 3px 0 0;
+    }
+    
+    .card__type {
+      position: absolute;
+      top: 0;
+      right: 1em;
+      transform: translateY(-50%);
+      color: #ffffff;
+      text-transform: uppercase;
+      font-family: "Open Sans Condensed", "Open Sans", helvetica, sans-serif;
+      letter-spacing: 0.1em;
+      padding: 0.25em;
+      line-height: 1;
+      border-radius: 2px;
+      background: #021a35;
+    }
+  
+    .card__label {
+      font-size: 10px;
+      text-transform: uppercase;
+      font-weight: 400;
+      display: block;
+      margin-bottom: 3px;
+    }
+    
+    
+    .card__name {
+      font-family: "Open Sans Condensed", "Open Sans", helvetica, sans-serif;
+      text-align: center;
+      font-size: 1.5em;    
+      font-weight: 700;
+      letter-spacing: 0.02em;
+    }
+    
+    .card__stats {
+      margin: 1em 0;
+      width: 100%;
+    
+    }
+    th{
+        font-family:  "Open Sans", helvetica, sans-serif;
+        text-align: right;
+        font-weight: 300;
+      }
+    
+      th, td {
+        width: 50%;
+        padding: 0.25em 0.5em 0;
+      }
+      
+    .card__abilities {
+       display: flex;
+      justify-content: space-between;
+    }
+    .card__ability {
+      margin-top: 1em;
+      flex: 1 0;
+    }
+    
+   
+ 
+  
+    .card:hover {
+      z-index: 5;
+      box-shadow: 0px 13px 30px -15px #000000;
+      transform:translateY(-10px);
+    }
+    
+  

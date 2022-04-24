@@ -1,0 +1,40 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+    
+       <app-header></app-header>
+       <section class="container"  *ngIf="tipo1==true">
+       <div id="cards">  
+        <figure class="card card--normal"*ngFor="let dato of datosPoke">
+        <app-cards [datoPoke]="dato"></app-cards>
+        </figure>
+    </div>
+</section>
+<section class="container-1"  *ngIf="tipo2 ==true">
+    <div id="cards">  
+     <figure class="card-1 card--normal"*ngFor="let dato of datosPoke">
+     <app-cards [datoPoke]="dato"></app-cards>
+     </figure>
+ </div>
+</section>
+<section class="container-2"  *ngIf="tipo3==true">
+    <div id="cards">  
+     <figure class="card-2 card--normal"*ngFor="let dato of datosPoke">
+     <app-cards [datoPoke]="dato"></app-cards>
+     </figure>
+ </div>
+</section>
+        
+
+    </body>
+    
+    </html>
+    
+
